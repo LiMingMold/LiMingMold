@@ -576,21 +576,26 @@ Your browser does not support the video tag.
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-                <!-- Messenger 洽談外掛程式 Code -->
-    <div id="fb-root" referrerpolicy="origin"></div>
+  
+	<!-- Messenger 洽談外掛程式 Code -->
+    <div id="fb-root"></div>
 
     <!-- Your 洽談外掛程式 code -->
-    <div id="fb-customer-chat" class="fb-customerchat" referrerpolicy="origin">
+    <div id="fb-customer-chat" class="fb-customerchat">
     </div>
 
     <script>
       var chatbox = document.getElementById('fb-customer-chat');
       chatbox.setAttribute("page_id", "1772812179628195");
       chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
       window.fbAsyncInit = function() {
         FB.init({
           xfbml            : true,
-          version          : 'v11.0'
+          version          : 'v12.0'
         });
       };
 
@@ -602,6 +607,7 @@ Your browser does not support the video tag.
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
+
 
       <!-- <script> -->
         <!-- // 2. This code loads the IFrame Player API code asynchronously. -->
