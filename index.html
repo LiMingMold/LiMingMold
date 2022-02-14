@@ -688,8 +688,12 @@ Your browser does not support the video tag.
 	  function changeLanguage(lan){
 	  var url = location.pathname;
 	  lan = "_"+lan;
+	  if(url=="/"){
+	  location.href="/index"+lan;
+	  }else{
 	  url = url.replace('index','index'+lan);
 	  location.href=url;
+	  }
 	  }
 	</script>
 
