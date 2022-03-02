@@ -448,32 +448,8 @@ margin: auto;
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  
-                  <!-- Messenger 洽談外掛程式 Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your 洽談外掛程式 code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
 
     <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "1772812179628195");
-      chatbox.setAttribute("attribution", "biz_inbox");
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v11.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
 	  
 	var element1 = document.getElementById("carouselDiv1");
 	element1.addEventListener("transitionend", showMessage1, false);
@@ -509,7 +485,7 @@ margin: auto;
 		str4 += "利用模擬軟體分析, 提前排除錯誤, 縮短開發時間與減少開發成本。"; 
 	break;
 	case 'carousel1-2':
-		str1 += "臥室車床"; 
+		str1 += "臥式車床"; 
 		str2 += "1臺"; 
 		str3 += " "; 
 		str4 += "加工機床,工件中心軸旋轉, 刀具進給進行切削加工。"; 
