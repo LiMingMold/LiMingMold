@@ -1,78 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xhtml="http://www.w3.org/1999/xhtml"
-      xsi:schemaLocation="
-            http://www.sitemaps.org/schemas/sitemap/0.9
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-  <url>
-       <loc>https://liming-mold.com/index_zh</loc>
-       <lastmod>2022-02-11T17:12:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>1.0000</priority>
-  </url>
-  <url>
-       <loc>https://liming-mold.com/index_zh.html</loc>
-       <lastmod>2022-02-11T17:12:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://liming-mold.com/about_zh.html</loc>
-       <lastmod>2022-02-11T17:12:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://liming-mold.com/csr_zh.html</loc>
-       <lastmod>2022-02-11T17:12:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://liming-mold.com/services_zh.html</loc>
-       <lastmod>2022-02-11T17:12:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://liming-mold.com/environment1_zh.html</loc>
-       <lastmod>2022-02-11T17:12:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://liming-mold.com/environment2_zh.html</loc>
-       <lastmod>2022-02-11T17:12:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://liming-mold.com/equipment1_zh.html</loc>
-       <lastmod>2022-02-11T17:12:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://liming-mold.com/equipment2_zh.html</loc>
-       <lastmod>2022-02-11T17:12:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://liming-mold.com/product_zh.html</loc>
-       <lastmod>2022-02-11T17:12:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://liming-mold.com/contact_zh.html</loc>
-       <lastmod>2022-02-11T17:12:57+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
+
+<url>
+  <loc>https://liming-mold.com/</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/index_zh.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/about_zh.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/csr_zh.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/services_zh.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/environment1_zh.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/environment2_zh.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/equipment1_zh.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/equipment2_zh.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/product_zh.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/contact_zh.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/index_en.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/about_en.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/csr_en.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/services_en.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/environment1_en.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/environment2_en.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/equipment1_en.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/equipment2_en.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/product_en.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/contact_en.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/index_jp.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/about_jp.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/csr_jp.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/services_jp.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/environment1_jp.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/environment2_jp.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/equipment1_jp.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/equipment2_jp.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/product_jp.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://liming-mold.com/contact_jp.html</loc>
+  <lastmod>2022-03-16T03:35:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
