@@ -9,9 +9,9 @@
 
 <url>
   <loc>https://liming-mold.com/</loc>
- <image:image>
-      <image:loc>https://liming-mold.com/assets/img/icon_og.jpg</image:loc>
-      <image:title>liming-mold</image:title>
+  <image:image>
+    <image:loc>https://liming-mold.com/assets/img/icon_og.jpg</image:loc>
+    <image:title>liming-mold</image:title>
   </image:image>
   <lastmod>2022-03-16T03:35:20+00:00</lastmod>
   <priority>1.00</priority>
