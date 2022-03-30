@@ -62,7 +62,14 @@ body{font-family:微軟正黑體!important;}
 .bx-globe:before {
     font-size: 15px;
 }
-
+@media screen and (max-width: 768px) {
+video::-webkit-media-controls-enclosure{ 
+	display:none;
+	}
+video{
+	pointer-events:none;
+}
+}
 </style>
   
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -125,7 +132,7 @@ body{font-family:微軟正黑體!important;}
   <div style = "position: relative;background-color: black;">
   <!-- 防止縮圖bug -->
   <img src="assets/img/icon_og.png" alt="liming-mold"style = "display: none;">
-  <video autoplay muted loop style="width:80%;display: block;margin: 80px auto;filter: brightness(50%)">
+  <video controls autoplay muted loop style="width:80%;display: block;margin: 80px auto;filter: brightness(50%)">
   <source src="assets/2022_0126_立名宣傳片_V7.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
