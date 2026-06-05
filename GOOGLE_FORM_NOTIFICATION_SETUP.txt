@@ -1,0 +1,27 @@
+Google Form 通知設定說明
+
+目前網站只能連到 Google Form 公開填寫頁；「是否寄信到 alex@liming-mold.com」不是 HTML 網頁可以控制，而是 Google Form 後台通知設定。
+
+若 alex@liming-mold.com 沒收到表單通知，請檢查：
+1. 用建立表單的 Google 帳號開啟該 Google Form。
+2. 進入「回覆」頁籤。
+3. 點右上角三點選單。
+4. 啟用「取得新回覆的電子郵件通知」。
+5. 若要指定寄到 alex@liming-mold.com，而不是表單擁有者信箱，請使用 Google Apps Script 或將表單擁有權/協作者通知設定到該帳號。
+
+建議 Apps Script：
+function onFormSubmit(e) {
+  var to = 'alex@liming-mold.com';
+  var subject = '網站詢問表單新回覆';
+  var body = '';
+  var responses = e.namedValues;
+  for (var key in responses) {
+    body += key + ': ' + responses[key].join(', ') + '\n';
+  }
+  MailApp.sendEmail(to, subject, body);
+}
+
+設定 Apps Script 後，請到「觸發條件」新增觸發器：
+- 函式：onFormSubmit
+- 事件來源：試算表或表單
+- 事件類型：提交表單時

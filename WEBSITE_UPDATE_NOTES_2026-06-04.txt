@@ -1,0 +1,18 @@
+修改內容：
+1. 新增 electronics_zh.html / electronics_en.html / electronics_jp.html。
+2. 全站導覽列新增「產業應用 / Industries / 産業分野」，並連到電子與工業設備分頁。
+3. 首頁文案調整為「醫療｜電子｜工業設備｜OEM/ODM」並降低過度醫療取向。
+4. 新增電子與工業設備頁 SEO description / keywords。
+5. 頁面內容包含：適合產品、DFM、製程能力、材料方向、應用案例、CTA。
+6. sitemap.xml 新增三個 electronics 頁面。
+
+上線方式：
+- 用瀏覽器先打開 electronics_zh.html / electronics_en.html / electronics_jp.html 檢查版面。
+- SourceTree 檢查修改檔案後 commit。
+- commit message 建議：Add electronics and industrial equipment landing pages
+- Push 到目前網站 repo。
+
+2026-06-04 revision 2:
+- Updated Industries dropdown to keep Electronics & Industrial Equipment and add Medical & Life Science.
+- Removed Processes & Products from the Industries dropdown.
+- Added medical_zh.html, medical_en.html, medical_jp.html.

@@ -2266,3 +2266,7 @@ section {
 .contactUs img{
   height: 120px;
 }
+
+/* Liming v7 refinements */
+a.contactUs{display:none!important;}
+#header{box-shadow:0 2px 16px rgba(0,0,0,.06);}
