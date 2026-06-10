@@ -443,10 +443,14 @@ Your browser does not support the video tag.
 	  function changeLanguage(lan){
 	  var url = location.pathname;
 	  lan = "_"+lan;
-	  url = url.replace('_zh',lan);
-	  url = url.replace('_en',lan);
-	  url = url.replace('_jp',lan);
-	  location.href=url;
+	  if (url === "/") {
+      location.href = "/index" + newLan;
+      return; 
+  	  }
+  	  if (url.match(/_(zh|en|jp)/)) {
+      location.href = url.replace(/_(zh|en|jp)/, newLan);
+      return;
+  	  }
 	  }
 	</script>
 
